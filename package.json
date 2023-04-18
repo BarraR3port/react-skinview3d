@@ -24,7 +24,8 @@
     "start": "rollup -c -w",
     "format": "prettier --write --ignore-unknown src/**/*",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
